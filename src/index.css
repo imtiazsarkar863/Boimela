@@ -1,0 +1,78 @@
+@import "tailwindcss";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.background {
+  object-fit: fill;
+  margin: 0;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.title {
+  position: relative;
+  color: white;
+  z-index: 1;
+  font-size: 80px;
+  top: 200px;
+  left: 900px;
+  font-family: 'Noto Serif Bengali', serif;
+  font-weight: 800;
+}
+
+.desc {
+  position: relative;
+  color: white;
+  z-index: 1;
+  font-size: 30px;
+  top: 200px;
+  left: 900px;
+  font-family: 'Noto Serif Bengali', serif;
+  font-weight: 300;
+}
+
+.cards {
+
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 40px;
+  width: max-content;
+  animation: scroll 10s linear infinite;
+
+}
+
+.book-set {
+  display: flex;
+  flex-shrink: 0;
+  gap: 40px;
+}
+.cards:has(.book-set > div:hover) {
+  animation-play-state: paused;
+}
+
+.cards:has(.book-set > div:hover) .book-set > div:not(:hover) {
+  filter: blur(4px);
+}
+
+.book-set > div {
+  transition: filter 0.3s ease;
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 10px));
+  }
+}

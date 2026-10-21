@@ -1,0 +1,10 @@
+.foot{
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    width: 50vw;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    left: 25%;
+}
