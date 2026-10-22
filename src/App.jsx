@@ -550,11 +550,11 @@ function App() {
 
             </button>
             <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
-              দেবদাস
+              Atomic Habits
 
             </h1>
             <div className="flex items-start gap-4 mt-6">
-              <p className="relative z-[1] top-[0px] left-[980px] text-black text-[20px] font-extrabold font-['Noto_Serif_Bengali']">-- ইমরান হোসেন আদিব</p>
+              <p className="relative z-[1] top-[0px] left-[980px] text-black text-[20px] font-extrabold font-['copperplate']">James_Clear</p>
               <iframe
                 src="https://share.google/H1dwduWAZEdeouzP8"
                 className="w-[40vw] h-[80vh] relative top-[-50px] left-[-180px]"
@@ -573,41 +573,6 @@ function App() {
           </div>
         )}
 
-
-
-
-        {showPdf10 && (
-          <div className="fixed inset-0 z-[10] bg-white/95 p-4">
-            <button
-              className="text-white bg-red-600 text-xl m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
-              onClick={() => setShowPdf10(false)}
-            >
-              ✕
-
-            </button>
-            <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['copperplate']">
-              Atomic Habits
-
-            </h1>
-            <div className="flex items-start gap-4 mt-6">
-              <p className="relative z-[1] top-[0px] left-[980px] text-black text-[20px] font-extrabold font-['copperplate']">-- James Clear</p>
-              <iframe
-                src="https://drive.google.com/file/d/1KceJZMxMbW4SQ1af3WFWWMRi6vT0L5Ck/view?usp=sharing"
-                className="w-[40vw] h-[80vh] relative top-[-50px] left-[-180px]"
-                style={{ border: "none" }}
-                title="কাঠগোলাপ PDF"
-              />
-              <h2 className="relative z-[1] top-[70px] left-[20px] text-black text-[20px] font-extrabold font-['copperplate']">Part_1</h2>
-              <iframe
-                src="https://www.youtube.com/embed/nFvPuYuSQkg?si=6n388m_xhLRq3QWj" title="YouTube video player"
-                className="w-[40vw] h-[40vh] relative top-[100px] left-[-80px]"
-                style={{ border: "none" }}
-                allowFullScreen
-              />
-              <h1 className="relative z-[1] top-[500px] left-[-100px] text-black text-[15px] font-extrabold font-['copperplate']">will be updated soon...</h1>
-            </div>
-          </div>
-        )}
 
 
         {showPdf10 && (
