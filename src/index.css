@@ -7,6 +7,8 @@
 .App {
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
+  /* overflow-y:scroll; */
 
 }
 
@@ -67,12 +69,43 @@
 .book-set > div {
   transition: filter 0.3s ease;
 }
+
+
+.cards2{
+
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 40px;
+  width: max-content;
+  animation: scroll 10s linear infinite;
+
+}
+
+.book-set2{
+  display: flex;
+  flex-shrink: 0;
+  gap: 40px;
+}
+.cards2:has(.book-set2 > div:hover) {
+  animation-play-state: paused;
+}
+
+.cards2:has(.book-set2 > div:hover) .book-set2 > div:not(:hover) {
+  filter: blur(4px);
+}
+
+.book-set2 > div {
+  transition: filter 0.3s ease;
+}
+
+
+
 @keyframes scroll {
   from {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
 
   to {
-    transform: translateX(calc(-50% - 10px));
+  transform: translateX(calc(-50% - 10px));
   }
 }
