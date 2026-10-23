@@ -1,10 +1,40 @@
 .foot{
     display: flex;
-    position: fixed;
-    bottom: 10px;
-    width: 50vw;
+    position: relative;
+    top: 340vh;
+    width: 80vw;
     justify-content: space-between;
     list-style: none;
+    border: 2px solid rgb(63, 63, 63);
     color: white;
-    left: 25%;
+    margin: 20px;
+    padding: 30px;
+    size: 30px;
+    left: 95px;
+    border-radius: 20px;
+    font-family: copperplate;
+    background-color: rgba(151, 148, 148, 0.08);
+backdrop-filter: blur(30px);
+-webkit-backdrop-filter: blur(20px);
+z-index: 10;
+}
+
+@media (max-width: 600px) {
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% - 30px);
+        left: 0;
+        top: 280vh;
+        margin: 20px 15px;
+        padding: 20px 10px;
+        box-sizing: border-box;
+        gap: 20px;
+        font-size: 12px;
+    }
+
+    .foot li {
+        text-align: center;
+    }
 }
