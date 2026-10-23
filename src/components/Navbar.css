@@ -13,8 +13,8 @@
     left: 95px;
     border-radius: 20px;
     font-family: copperplate;
-   background-color: rgba(194, 193, 193, 0.643);
-backdrop-filter: blur(40px);
+   background-color: rgba(155, 152, 152, 0.324);
+backdrop-filter: blur(20px);
             z-index: 200;
 }
 
