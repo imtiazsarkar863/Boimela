@@ -40,8 +40,8 @@ input{
         right: 10px;
         margin: 10px 0;
         padding: 12px;
-        gap: 4px;
-        size: 10px;
+        gap: 7px;
+        size: 8px;
         border-radius: 14px;
         border: 2px solid rgba(163, 161, 161, 0.649);
         flex-wrap: wrap;
