@@ -45,17 +45,16 @@
   font-weight: 300;
 }
 
-.cards {
+.cards{
   display: flex;
   /* justify-content: space-between; */
   gap: 40px;
   width: max-content;
-  animation: scroll 20s linear infinite;
+  animation: scroll 30s linear infinite;
 
 }
 
-.book-set {
-  
+.book-set{
   display: flex;
   flex-shrink: 0;
   gap: 40px;

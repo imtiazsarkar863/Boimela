@@ -49,7 +49,7 @@ input{
         flex-wrap: wrap;
         background-color: rgba(126, 124, 124, 0.297);
 backdrop-filter: blur(20px);
-            z-index: 200;
+            z-index: 10;
     }
     @font-face {
     font-family: "Copperplate";
