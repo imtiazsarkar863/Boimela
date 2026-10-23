@@ -47,9 +47,15 @@
 
 .cards{
   display: flex;
-  /* justify-content: space-between; */
+  position: relative;
+  z-index: 1;
+  height: 200px;
+
+  
+ 
   gap: 40px;
-  width: max-content;
+  width: max-content; 
+  border: 2px solid transparent;
   animation: scroll 30s linear infinite;
 
 }
