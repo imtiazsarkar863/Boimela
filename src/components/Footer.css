@@ -1,3 +1,9 @@
+.navbar,
+.foot {
+    background: rgba(255, 255, 255, 0.25) !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+}
 .foot{
     display: flex;
     position: relative;
@@ -39,7 +45,12 @@ z-index: 10;
         border: 1px solid rgba(255, 255, 255, 0.2);
         z-index: 10;
     }
-
+.navbar,
+.foot {
+    background: rgba(255, 255, 255, 0.25) !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+}
     .foot li {
         text-align: center;
     }
