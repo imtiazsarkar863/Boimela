@@ -15,7 +15,7 @@
     font-family: copperplate;
    background-color: rgba(155, 152, 152, 0.324);
 backdrop-filter: blur(20px);
-            z-index: 200;
+            z-index: 10;
 }
 
 input{
