@@ -14,10 +14,9 @@
     left: 95px;
     border-radius: 20px;
     font-family: copperplate;
-    background-color: rgba(151, 148, 148, 0.08);
-backdrop-filter: blur(30px);
--webkit-backdrop-filter: blur(20px);
-z-index: 10;
+    background-color: rgba(147, 146, 146, 0.297);
+backdrop-filter: blur(20px);
+            z-index: 200;
 }
 
 @media (max-width: 600px) {
@@ -34,11 +33,12 @@ z-index: 10;
         gap: 20px;
         font-size: 12px;
 
-        background: rgba(151, 148, 148, 0.12);
-        backdrop-filter: blur(30px);
-        -webkit-backdrop-filter: blur(30px);
+        background-color: rgba(147, 146, 146, 0.297);
+backdrop-filter: blur(20px);
+            z-index: 200;
+        
+     
         border: 1px solid rgba(255, 255, 255, 0.2);
-        z-index: 10;
     }
 
     .foot li {
