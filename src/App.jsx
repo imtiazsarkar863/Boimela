@@ -3,9 +3,9 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import card from './components/card'
+import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
+
 
 
 function App() {
