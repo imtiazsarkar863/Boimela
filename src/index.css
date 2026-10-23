@@ -139,6 +139,10 @@
    left: 40%;
    font-family:'Copperplate' ;
 }
+@font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/CopperplateCC-Heavy.ttf") format("truetype");
+}
 @keyframes scroll {
   from {
     transform: translateX(0%);
@@ -183,4 +187,8 @@
         object-fit:cover;
         object-position: center;
     }
+    @font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/CopperplateCC-Heavy.ttf") format("truetype");
+}
 }

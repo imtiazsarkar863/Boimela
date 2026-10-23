@@ -27,6 +27,10 @@ input{
     top: 0;
     right: 0;
 }
+@font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/CopperplateCC-Heavy.ttf") format("truetype");
+}
 /* Mobile responsive */
 @media (max-width: 600px) {
     .navbar {
@@ -43,6 +47,10 @@ input{
 backdrop-filter: blur(20px);
             z-index: 200;
     }
+    @font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/CopperplateCC-Heavy.ttf") format("truetype");
+}
 
     input {
         position: static;

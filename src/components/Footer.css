@@ -18,6 +18,10 @@
 backdrop-filter: blur(20px);
             z-index: 200;
 }
+@font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/CopperplateCC-Heavy.ttf") format("truetype");
+}
 
 @media (max-width: 600px) {
     .foot {
@@ -44,4 +48,8 @@ backdrop-filter: blur(20px);
     .foot li {
         text-align: center;
     }
+    @font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/CopperplateCC-Heavy.ttf") format("truetype");
+}
 }
