@@ -457,7 +457,7 @@ function App() {
 
 
           {showPdf && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf(false)}
@@ -465,7 +465,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 কাঠগোলাপ
 
               </h1>
@@ -493,7 +493,7 @@ function App() {
 
 
           {showPdf2 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf2(false)}
@@ -501,7 +501,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 অপেক্ষা
 
               </h1>
@@ -529,7 +529,7 @@ function App() {
 
 
           {showPdf3 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf3(false)}
@@ -537,7 +537,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 আমৃত্যু_ভালোবাসি_তোকে
 
               </h1>
@@ -565,7 +565,7 @@ function App() {
 
 
           {showPdf4 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf4(false)}
@@ -573,7 +573,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 ইকিগাই
 
               </h1>
@@ -600,7 +600,7 @@ function App() {
 
 
           {showPdf5 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf5(false)}
@@ -608,7 +608,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 কাঁচের_দেওয়াল
 
               </h1>
@@ -635,7 +635,7 @@ function App() {
 
 
           {showPdf6 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf6(false)}
@@ -643,7 +643,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 পদ্মজা
 
               </h1>
@@ -671,7 +671,7 @@ function App() {
 
 
           {showPdf7 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf7(false)}
@@ -679,7 +679,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 তোমাকে
 
               </h1>
@@ -707,7 +707,7 @@ function App() {
 
 
           {showPdf8 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf8(false)}
@@ -715,7 +715,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 দেবদাস
 
               </h1>
@@ -742,7 +742,7 @@ function App() {
 
 
           {showPdf9 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf9(false)}
@@ -750,7 +750,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 Atomic Habits
 
               </h1>
@@ -777,7 +777,7 @@ function App() {
 
 
           {showPdf10 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf10(false)}
@@ -811,7 +811,7 @@ function App() {
 
 
           {showPdf11 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf11(false)}
@@ -846,7 +846,7 @@ function App() {
 
 
           {showPdf12 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf12(false)}
@@ -881,7 +881,7 @@ function App() {
 
 
           {showPdf13 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf13(false)}
@@ -914,7 +914,7 @@ function App() {
           )}
 
           {showPdf14 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf14(false)}
@@ -949,7 +949,7 @@ function App() {
 
 
           {showPdf15 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf15(false)}
@@ -957,7 +957,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 The Da Vinci Code
 
               </h1>
@@ -984,7 +984,7 @@ function App() {
 
 
           {showPdf16 && (
-            <div className="fixed inset-0 z-[10] bg-white/95 p-4">
+            <div className="fixed inset-0 z-[10] bg-white/95 p-3 sm:p-4 overflow-y-auto overflow-x-hidden">
               <button
                 className="text-white bg-red-600 text-[14px] m-10 p-10 cursor-pointer w-[3vw] h-[6vh]"
                 onClick={() => setShowPdf16(false)}
@@ -992,7 +992,7 @@ function App() {
                 ✕
 
               </button>
-              <h1 className="relative z-[1] top-[0px] left-[900px] text-black text-[50px] font-extrabold font-['Noto_Serif_Bengali']">
+              <h1 className="relative z-[1] top-0 left-0 text-black text-2xl sm:text-4xl lg:text-[50px] text-center w-full font-['copperplate']">
                 Pride and Prejudice
               </h1>
               <div className="flex items-start gap-4 mt-6">
